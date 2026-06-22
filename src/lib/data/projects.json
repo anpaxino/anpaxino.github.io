@@ -5,7 +5,7 @@
     "subtitle": "Add later",
     "link": "https://dapp.anhnuive.id.vn",
     "tags": ["Web3", "React(TS)", "wagmi", "Solidity"],
-    "imgs": [],
+    "imgs": ["lms_1.png"],
     "desc": {
       "vi": [
         "Ứng dụng phi tập trung cho phép kết nối ví blockchain, chuyển native coin và tương tác với smart contract trên các mạng EVM.",
@@ -31,7 +31,7 @@
       "Judge0",
       "RabbitMQ"
     ],
-    "imgs": [],
+    "imgs": ["lms_1.png", "lms_2.png", "lms_3.png"],
     "desc": {
       "vi": [
         "Hệ thống quản lý học tập cho phép quản lý khóa học, học liệu và nhiều hình thức kiểm tra khác nhau.",
@@ -57,7 +57,7 @@
       "S3, Cloudfront"
     ],
     "repo": "https://github.com/dinhduongdev/public-transport",
-    "imgs": [],
+    "imgs": ["map_1.png", "map_2.png", "map_3.png", "map_4.png"],
     "desc": {
       "vi": [
         "Xây dựng hệ thống giao thông công cộng với dữ liệu được cào từ các nguồn bên ngoài.",
@@ -84,7 +84,7 @@
       "Dash"
     ],
     "repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
-    "imgs": [],
+    "imgs": ["ref_1.png", "ref_2.png", "ref_3.png", "ref_4.png"],
     "desc": {
       "vi": [
         "Dự án dự đoán giá bất động sản tại Việt Nam từ dữ liệu được cào từ các trang bất động sản.",

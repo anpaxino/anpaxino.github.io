@@ -7,6 +7,7 @@
     } from "$lib/components/ui/card";
     import { Button } from "$lib/components/ui/button";
     import ProjectTags from "./project-tags.svelte";
+    import ProjectImages from "./project-images.svelte";
     import { cn } from "$lib/utils";
     import { m } from "$lib/paraglide/messages.js";
     import { ArrowUpRight, Code } from "@lucide/svelte";
@@ -40,13 +41,7 @@
     </CardHeader>
 
     {#if project.imgs.length > 0}
-        <div class="aspect-video w-full overflow-hidden bg-muted">
-            <img
-                src={project.imgs[0]}
-                alt={project.title}
-                class="h-full w-full object-cover"
-            />
-        </div>
+        <ProjectImages images={project.imgs} />
     {:else}
         <div class="aspect-video w-full bg-muted"></div>
     {/if}
