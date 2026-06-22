@@ -5,7 +5,11 @@
     "subtitle": "Add later",
     "link": "https://dapp.anhnuive.id.vn",
     "tags": ["Web3", "React(TS)", "wagmi", "Solidity"],
-    "imgs": ["lms_1.png"],
+    "imgs": [
+      "dapp_connect.webp",
+      "dapp_token_transfer.webp",
+      "dapp_mint_token_success.webp"
+    ],
     "desc": {
       "vi": [
         "Ứng dụng phi tập trung cho phép kết nối ví blockchain, chuyển native coin và tương tác với smart contract trên các mạng EVM.",
@@ -31,7 +35,7 @@
       "Judge0",
       "RabbitMQ"
     ],
-    "imgs": ["lms_1.png", "lms_2.png", "lms_3.png"],
+    "imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
     "desc": {
       "vi": [
         "Hệ thống quản lý học tập cho phép quản lý khóa học, học liệu và nhiều hình thức kiểm tra khác nhau.",
@@ -57,7 +61,12 @@
       "S3, Cloudfront"
     ],
     "repo": "https://github.com/dinhduongdev/public-transport",
-    "imgs": ["map_1.png", "map_2.png", "map_3.png", "map_4.png"],
+    "imgs": [
+      "map_navigation.webp",
+      "map_search.webp",
+      "map_businfo.webp",
+      "map_bookmark.webp"
+    ],
     "desc": {
       "vi": [
         "Xây dựng hệ thống giao thông công cộng với dữ liệu được cào từ các nguồn bên ngoài.",
@@ -84,7 +93,7 @@
       "Dash"
     ],
     "repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
-    "imgs": ["ref_1.png", "ref_2.png", "ref_3.png", "ref_4.png"],
+    "imgs": ["ref_web1.webp", "ref_web2.webp", "ref_house_vis.webp"],
     "desc": {
       "vi": [
         "Dự án dự đoán giá bất động sản tại Việt Nam từ dữ liệu được cào từ các trang bất động sản.",
@@ -96,6 +105,20 @@
         "Implemented web scrapers, data preprocessing, visualizations, and a simple web app that allows users to forecast real estate prices.",
         "Contributed to the development and evaluation of machine learning models for real estate price forecasting."
       ]
+    }
+  },
+  {
+    "title": "Pomodoro timer",
+    "tags": ["Desktop", "Java Swing"],
+    "repo": "https://github.com/huywindear004/Pomodoro-timer",
+    "imgs": [
+      "pomodoro_1.webp",
+      "pomodoro_2.webp",
+      "pomodoro_3.webp",
+      "pomodoro_settings.webp"
+    ],
+    "desc": {
+      "en": ["It is what it is"]
     }
   }
 ]
