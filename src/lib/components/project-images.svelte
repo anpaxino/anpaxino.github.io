@@ -72,11 +72,11 @@
         </div>
     {:else}
         <div
-            class="aspect-[16/10] grid grid-cols-[2fr_1fr] gap-1 overflow-hidden ring-1 ring-border"
+            class="aspect-[16/10] grid grid-cols-2 gap-1 overflow-hidden ring-1 ring-border"
         >
             <button
                 onclick={() => openAt(0)}
-                class="row-span-2 overflow-hidden bg-muted cursor-pointer"
+                class="col-span-2 overflow-hidden bg-muted cursor-pointer ring ring-border"
             >
                 <img
                     src={getProjectImgUrl(visible[0])}
@@ -88,7 +88,7 @@
             {#each visible.slice(1) as img, i}
                 <button
                     onclick={() => openAt(i + 1)}
-                    class="overflow-hidden bg-muted cursor-pointer relative"
+                    class="overflow-hidden bg-muted cursor-pointer relative ring ring-border"
                 >
                     <img
                         src={getProjectImgUrl(img)}
@@ -118,10 +118,16 @@
             setApi={(emblaApi) => (api = emblaApi)}
             opts={{ startIndex, loop: true }}
         >
-            <CarouselPrevious class="top-1/2 -translate-y-1/2 py-20 -start-8" />
-            <CarouselNext class="top-1/2 -translate-y-1/2 py-20 -end-8" />
+            <CarouselPrevious
+                aria-haspopup="false"
+                class="top-1/2 -translate-y-1/2 py-20 -start-8 active:none"
+            />
+            <CarouselNext
+                aria-haspopup="false"
+                class="top-1/2 -translate-y-1/2 py-20 -end-8"
+            />
             <CarouselContent>
-                {#each images as img}
+                {#each images as img, idx}
                     <CarouselItem>
                         <img
                             src={getProjectImgUrl(img)}
@@ -133,8 +139,10 @@
                 {/each}
             </CarouselContent>
         </Carousel>
-        <div class="absolute -bottom-10 text-foreground right-1/2">
-            {current} of {images.length}
+        <div
+            class="absolute bottom-2 right-3 rounded-full bg-black/50 text-white px-2"
+        >
+            {current}/{images.length}
         </div>
     </DialogContent>
 </Dialog>

@@ -1,6 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "full_name": "Quang Huy Nguyen",
+  "subtitle": "Software Engineer • Synth Hobbyist",
   "intro": "I build apps. They work. Most of the time. I'm still early in my journey, but I'm eager to learn, contribute, and take every opportunity to level up. Glad you're here. Feel free to peruse the site to see some of my work.",
   "projects_title": "Projects",
   "view_project": "Demo",

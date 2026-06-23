@@ -8,7 +8,7 @@
 
 <header
     class={cn(
-        "flex items-center md:px-36 border-border/50 bg-background/40 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-sm gap-5",
+        "flex items-center md:px-36 border-border/50 bg-background/70 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-sm gap-5",
         className,
     )}
 >
@@ -18,7 +18,7 @@
         </a> -->
     </nav>
 
-    <ToggleTheme />
+    <ToggleTheme className="bg-transparent" />
 
     <LocaleSelect />
 </header>

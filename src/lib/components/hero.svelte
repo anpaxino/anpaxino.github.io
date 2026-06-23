@@ -6,9 +6,16 @@
 </script>
 
 <section class="space-y-10">
-    <h1 class="font-heading text-5xl text-center font-semibold tracking-tight">
-        {m.full_name()}
-    </h1>
+    <header>
+        <h1
+            class="font-heading text-5xl text-center font-semibold tracking-tight"
+        >
+            {m.full_name()}
+        </h1>
+        <p class="text-xl font-light text-center mt-5">
+            {m.subtitle()}
+        </p>
+    </header>
     <article class="grid gap-5 md:grid-cols-2">
         <p class="">
             {m.intro()}
