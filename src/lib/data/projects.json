@@ -2,7 +2,6 @@
   {
     "types": ["fe", "blockchain"],
     "title": "D-App",
-    "subtitle": "Add later",
     "link": "https://dapp.anhnuive.id.vn",
     "tags": ["Web3", "React(TS)", "wagmi", "Solidity"],
     "imgs": [
@@ -26,7 +25,6 @@
   {
     "types": ["fe", "be", "fullstack"],
     "title": "Learning Management System (LMS)",
-    "subtitle": "Add later",
     "tags": [
       "Django",
       "SvelteKit(TS)",
@@ -52,7 +50,6 @@
   {
     "types": ["fe", "be", "fullstack"],
     "title": "BusMap Clone",
-    "subtitle": "Add later",
     "tags": [
       "Data scraping",
       "SpringMVC",
@@ -83,7 +80,6 @@
   {
     "types": ["fullstack", "ml"],
     "title": "VietNam Real Estate Price Forecasting",
-    "subtitle": "Add later",
     "tags": [
       "Machine learning",
       "Data scraping",
