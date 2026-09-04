@@ -29,8 +29,7 @@
 			"Django",
 			"Svelte",
 			"OpenFGA",
-			"S3, Cloudfront",
-			"Judge0",
+			"S3",
 			"RabbitMQ"
 		],
 		"imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
@@ -57,7 +56,7 @@
 		"tags": [
 			"SpringMVC",
 			"React",
-			"S3, Cloudfront",
+			"S3",
 			"Firebase"
 		],
 		"repo": "https://github.com/dinhduongdev/public-transport",
@@ -111,7 +110,7 @@
 	},
 	{
 		"title": "Pomodoro timer",
-		"tags": ["Desktop", "Java Swing"],
+		"tags": ["Java Swing"],
 		"repo": "https://github.com/huywindear004/Pomodoro-timer",
 		"imgs": [
 			"pomodoro_1.webp",

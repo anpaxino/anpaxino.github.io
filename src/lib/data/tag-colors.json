@@ -1,23 +1,17 @@
 {
-  "React": { "light": "#61DAFB", "dark": "#61DAFB" },
-  "React(TS)": { "light": "#61DAFB", "dark": "#61DAFB" },
-  "React(JS)": { "light": "#61DAFB", "dark": "#61DAFB" },
-  "SvelteKit": { "light": "#FF3E00", "dark": "#FF3E00" },
-  "SvelteKit(TS)": { "light": "#FF3E00", "dark": "#FF3E00" },
-  "wagmi": { "light": "#FF4D4D", "dark": "#FF4D4D" },
-  "Solidity": { "light": "#363636", "dark": "#CCCCCC" },
-  "Web3": { "light": "#F16822", "dark": "#F16822" },
-  "Django": { "light": "#092E20", "dark": "#44B78B" },
-  "OpenFGA": { "light": "#6C47FF", "dark": "#6C47FF" },
-  "S3, Cloudfront": { "light": "#FF9900", "dark": "#FF9900" },
-  "Judge0": { "light": "#1B1B2F", "dark": "#E0E0E0" },
-  "RabbitMQ": { "light": "#FF6600", "dark": "#FF6600" },
-  "Data scraping": { "light": "#8B5CF6", "dark": "#8B5CF6" },
-  "SpringMVC": { "light": "#6DB33F", "dark": "#6DB33F" },
-  "Leaflet": { "light": "#199900", "dark": "#199900" },
-  "Machine learning": { "light": "#E34F26", "dark": "#E34F26" },
-  "Scikit-learn": { "light": "#F7931E", "dark": "#F7931E" },
-  "Pandas": { "light": "#130654", "dark": "#E70488" },
-  "Matplotlib": { "light": "#11557C", "dark": "#11557C" },
-  "Dash": { "light": "#008DE4", "dark": "#008DE4" }
+	"Python": { "light": "#3572A5", "dark": "#598fbd"},
+	"Solidity": { "light": "#363636", "dark": "#CCCCCC" },
+	"Java": { "light": "#B07219", "dark": "#B07219" },
+
+	"React": { "light": "#4baac4", "dark": "#61DAFB" },
+	"Svelte": { "light": "#FF3E00", "dark": "#FF3E00" },
+	"Django": { "light": "#02965e", "dark": "#44B78B" },
+	"SpringMVC": { "light": "#6DB33F", "dark": "#6DB33F" },
+	"Scikit-learn": { "light": "#f78805", "dark": "#F7931E" },
+	"Java Swing": { "light": "#e68800", "dark": "#d9a457" },
+
+	"OpenFGA": { "light": "#0ccc54", "dark": "#43ef83" },
+	"S3": { "light": "#FF9900", "dark": "#FF9900" },
+	"Firebase": { "light": "#e6b000", "dark": "#FFC400" },
+	"RabbitMQ": { "light": "#FF6600", "dark": "#FF6600" }
 }
