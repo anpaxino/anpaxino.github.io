@@ -30,6 +30,6 @@
 
 <Topnav />
 
-<main class="md:px-36 px-2 pt-20 pb-16">
+<main class="md:px-12 px-2 pt-20 pb-12">
     {@render children()}
 </main>
