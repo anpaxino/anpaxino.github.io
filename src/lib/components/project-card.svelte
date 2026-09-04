@@ -46,9 +46,9 @@
         <div class="aspect-video w-full bg-muted"></div>
     {/if}
 
-    <CardContent class="space-y-3">
+    <CardContent class="flex flex-col space-y-1 size-full">
         {#if desc.length > 0}
-            <ul class="list-disc space-y-1 pl-4">
+            <ul class="list-disc pl-2">
                 {#each desc as item}
                     <li class="">
                         {item}
@@ -59,7 +59,7 @@
 
         <ProjectTags tags={project.tags} />
 
-        <div class="flex flex-wrap gap-2 pt-1">
+        <div class="flex flex-wrap gap-2 pt-1 mt-auto">
             {#if project.link}
                 <a
                     href={project.link}
