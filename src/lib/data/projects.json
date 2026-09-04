@@ -121,5 +121,28 @@
 		"desc": {
 			"en": ["Trivial pomodoro timer gui app."]
 		}
+	},
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "HealthCare booking system",
+		"tags": ["Django", "React Native", "S3", "RabbitMQ", "Firebase"],
+		"repo": "https://github.com/huywindear004/healthcare-booking-system",
+		"imgs": [],
+		"desc": {
+			"vi": [
+				"Ứng dụng đặt lịch khám sức khỏe trực tuyến với vai trò bệnh nhân, bác sĩ và quản trị viên, bác sĩ phải được xác minh giấy phép hành nghề trước khi hoạt động.",
+
+				"Cho phép đặt/hủy/đổi lịch hẹn, quản lý hồ sơ sức khỏe, tư vấn từ xa qua video call (WebRTC), chat thời gian thực và đánh giá bác sĩ.",
+
+				"Tích hợp thanh toán trực tuyến (VNPay, MoMo, Stripe), thông báo qua email và push notification, cùng trang thống kê bệnh lý và doanh thu cho bác sĩ và quản trị viên."
+			],
+			"en": [
+				"Healthcare booking app with patient, doctor, and admin roles, where doctors must be verified for their practicing license before going live.",
+
+				"Implemented booking, rescheduling/canceling appointments, health record management, remote consultations via video call (WebRTC), real-time chat, and doctor ratings.",
+
+				"Integrated online payments (VNPay, MoMo, Stripe), email and push notifications, plus analytics dashboards for doctors and admins to track common conditions and revenue."
+			]
+		}
 	}
 ]

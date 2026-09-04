@@ -4,6 +4,7 @@
 	"Java": { "light": "#B07219", "dark": "#B07219" },
 
 	"React": { "light": "#4baac4", "dark": "#61DAFB" },
+	"React Native": { "light": "#4baac4", "dark": "#61DAFB" },
 	"Svelte": { "light": "#FF3E00", "dark": "#FF3E00" },
 	"Django": { "light": "#02965e", "dark": "#44B78B" },
 	"SpringMVC": { "light": "#6DB33F", "dark": "#6DB33F" },
