@@ -1,9 +1,5 @@
 <script lang="ts">
-    import {
-        NativeSelect,
-        NativeSelectOption,
-    } from "$lib/components/ui/native-select";
-    import { getLocale, setLocale } from "$lib/paraglide/runtime.js";
+    import { getLocale, setLocale, locales } from "$lib/paraglide/runtime.js";
     import { cn } from "$lib/utils";
 
     let { className = "" } = $props();
@@ -15,7 +11,20 @@
     });
 </script>
 
-<NativeSelect bind:value={locale} class={cn("", className)} aria-label="alo">
-    <NativeSelectOption value="vi">Tiếng Việt</NativeSelectOption>
-    <NativeSelectOption value="en">English</NativeSelectOption>
-</NativeSelect>
+<!-- <NativeSelect bind:value={locale} class={cn("", className)} aria-label="alo"> -->
+<!--     <NativeSelectOption value="vi">Tiếng Việt</NativeSelectOption> -->
+<!--     <NativeSelectOption value="en">English</NativeSelectOption> -->
+<!-- </NativeSelect> -->
+
+<div class={cn("rounded-full ring ring-input overflow-x-hidden", className)}>
+{#each locales as opt}
+	<button 
+		disabled={locale==opt}
+		class="h-8 w-10 disabled:bg-border disabled:text-foreground"
+		onclick={() => { setLocale(opt) }}
+	>
+		{ opt.toUpperCase() }
+	</button>
+{/each}
+</div>
+
