@@ -26,7 +26,7 @@
 <Button
     variant="outline"
     onclick={btnHandler}
-    class={cn("rounded-full", className)}
+    class={cn("rounded-full h-7", className)}
 >
     <Icon />
 </Button>

@@ -12,7 +12,7 @@
         className,
     )}
 >
-    <nav class="mr-auto flex h-12">
+    <nav class="mr-auto flex h-9">
         <!-- <a href="/" class="text-sm font-medium tracking-tight">
             {m.full_name()}
         </a> -->
