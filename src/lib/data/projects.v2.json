@@ -1,0 +1,120 @@
+[
+	{
+		"types": ["fe", "blockchain"],
+		"title": "D-App",
+		"link": "https://dapp.anhnuive.id.vn",
+		"tags": ["React", "Solidity"],
+		"imgs": [
+			"dapp_connect.webp",
+			"dapp_token_transfer.webp",
+			"dapp_mint_token_success.webp"
+		],
+		"desc": {
+			"vi": "Ứng dụng phi tập trung chạy trên các mạng tương thích EVM, cho phép kết nối ví, chuyển native coin, token và tương tác với smart contract ERC-20 đã triển khai trên Sepolia testnet để tạo, mint và quản lý token.",
+			"en": "A trivial decentralized application for EVM-compatible networks that lets users connect a wallet, transfer native coins, tokens and call deployed smart contracts on Sepolia testnet for creating, minting, and managing tokens."
+		}
+	},
+
+
+
+
+
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "Learning Management System (LMS)",
+		"tags": [
+			"Django",
+			"Svelte",
+			"OpenFGA",
+			"S3",
+			"RabbitMQ"
+		],
+		"imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
+		"desc": {
+			"vi": "Hệ thống quản lý học tập dùng để quản lý khóa học, học liệu và nhiều hình thức kiểm tra. Bài nộp code được thực thi và chấm điểm tự động qua Judge0 với testcase ẩn và công khai. Quyền truy cập được kiểm soát theo mô hình ReBAC với OpenFGA có thể phân quyền user groups, khóa học, học liệu, file/folder một cách chi tiết.",
+			"en": "A learning management system for managing courses, learning materials, and several exam formats. Code submissions are executed and graded automatically through Judge0, with hidden and public testcases. Ultilized ReBAC model using OpenFGA to authorize system access control, user groups, courses, learning materials and file/folder permissions."
+		}
+	},
+
+
+
+
+
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "BusMap Clone",
+		"tags": [
+			"SpringMVC",
+			"React",
+			"S3",
+			"Firebase"
+		],
+		"repo": "https://github.com/dinhduongdev/public-transport",
+		"imgs": [
+			"map_navigation.webp",
+			"map_search.webp",
+			"map_businfo.webp",
+			"map_bookmark.webp",
+			"map_admin.webp"
+		],
+		"desc": {
+			"vi": "Ứng dụng như kiểu Google Map nhưng chỉ dành cho giao thông công cộng như xe buýt hay tàu lửa với dữ liệu được cào và xử lý. Chức năng tìm đường (nối nhiều tuyến), tính quãng đường và thời gian di chuyển bằng thuật toán Dijkstra. Người dùng có thể theo dõi và nhận thông báo về tuyến xe yêu thích qua email hay thông báo đẩy. Trang admin có thể quản lý dữ liệu tuyến, trạm chờ và các báo cáo giao thông.",
+			"en": "A somewhat Google Map-like app but only for public transit such as buses or trains with data scraped and processed. Implemented route navigation using Dijkstra's algorithm, supporting multi-route transfers, distance calculation, and travel-time estimation. Users can track and receive notifications about their favorite routes via email or push notifications. The admin page can manage route data, stations and traffic reports."
+		}
+	},
+
+
+
+
+
+	{
+		"types": ["fullstack", "ml"],
+		"title": "VietNam Real Estate Price Forecasting",
+		"tags": [
+			"Python",
+			"Scikit-learn"
+		],
+		"repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
+		"imgs": ["ref_web1.webp", "ref_web2.webp", "ref_house_vis.webp"],
+		"desc": {
+			"vi": "Dự án dự đoán giá bất động sản tại Việt Nam. Dữ liệu được cào từ các trang rao bán bất động sản (như batdongsan.com, nhatot.com), tiền xử lý và trực quan hóa. Web app nho nhỏ cho phép người dùng dự đoán giá từ các mô hình đã được huấn luyện.",
+			"en": "A real estate price forecasting project in VietNam. Data is scraped from some real estate sites (e.g. batdongsan.com, nhatot.com), preprocessed, and visualized. A small web app lets users get price estimates from the resulting models."
+		}
+	},
+
+
+
+
+
+	{
+		"title": "Pomodoro timer",
+		"tags": ["Java Swing"],
+		"repo": "https://github.com/huywindear004/Pomodoro-timer",
+		"imgs": [
+			"pomodoro_1.webp",
+			"pomodoro_2.webp",
+			"pomodoro_3.webp",
+			"pomodoro_settings.webp"
+		],
+		"desc": {
+			"en": "A trivial pomodoro timer gui app.",
+			"vi": "Ứng dụng vô thưởng vô phạt đếm giờ theo phuơng pháp quản lý thời gian pomodoro."
+		}
+	},
+
+
+
+
+
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "HealthCare booking system",
+		"tags": ["Django", "React Native", "S3", "RabbitMQ", "Firebase"],
+		"repo": "https://github.com/huywindear004/healthcare-booking-system",
+		"imgs": [],
+		"desc": {
+			"vi": "Hệ thống đặt lịch khám trực tuyến với ba vai trò bệnh nhân, bác sĩ và quản trị viên. Chức năng gồm đặt và quản lý lịch hẹn, hồ sơ sức khỏe, tư vấn qua chat hoặc video call (webrtc), đánh giá bác sĩ và thanh toán qua VNPay. Email và push notification thông báo sự kiện, dashboard theo dõi các bệnh đang phổ biến và doanh thu.",
+			"en": "Another trivial healthcare booking system with three roles: patient, doctor, and admin. Features: appointment booking and management, health record management, consultations via chat or video calls (webrtc), doctor reviews, and VNPay payment integration. Email and push notifications keep users informed of events, while dashboards track disease trends and revenue."
+		}
+	}
+]

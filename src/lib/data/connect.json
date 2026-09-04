@@ -5,18 +5,18 @@
     "href": "mailto:huykhongcan04@gmail.com"
   },
   {
+    "title": "Telegram",
+    "label": "anpaxino",
+    "href": "https://t.me/anpaxino"
+  },
+  {
     "title": "Github",
     "label": "huywindear004",
     "href": "https://github.com/huywindear004"
   },
   {
-    "title": "Telegram",
-    "label": "jazzmage",
-    "href": "https://t.me/jazzmage"
-  },
-  {
-    "title": "LinkedIn",
-    "label": "manonamission",
-    "href": "https://www.linkedin.com/in/manonamission"
+    "title": "Codeberg",
+    "label": "qwe",
+    "href": "https://codeberg.org/qwe"
   }
 ]

@@ -3,7 +3,7 @@
     import ProjectCard from "$lib/components/project-card.svelte";
     import Button from "$lib/components/ui/button/button.svelte";
     import Slider from "$lib/components/ui/slider/slider.svelte";
-    import projects from "$lib/data/projects.json" with { type: "json" };
+    import projects from "$lib/data/projects.v2.json" with { type: "json" };
     import { m } from "$lib/paraglide/messages.js";
     import { getLocale } from "$lib/paraglide/runtime.js";
     import { ChevronUp } from "@lucide/svelte";
