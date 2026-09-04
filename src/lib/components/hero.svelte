@@ -12,7 +12,7 @@
         >
             {m.full_name()}
         </h1>
-        <p class="text-xl font-light text-center mt-5">
+        <p class="text-xl font-thin text-muted-foreground text-center mt-5">
             {m.subtitle()}
         </p>
     </header>

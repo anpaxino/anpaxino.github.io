@@ -50,7 +50,7 @@
         {#if desc.length > 0}
             <ul class="list-disc space-y-1 pl-4">
                 {#each desc as item}
-                    <li class="text-muted-foreground">
+                    <li class="">
                         {item}
                     </li>
                 {/each}
