@@ -11,16 +11,11 @@
     });
 </script>
 
-<!-- <NativeSelect bind:value={locale} class={cn("", className)} aria-label="alo"> -->
-<!--     <NativeSelectOption value="vi">Tiếng Việt</NativeSelectOption> -->
-<!--     <NativeSelectOption value="en">English</NativeSelectOption> -->
-<!-- </NativeSelect> -->
-
-<div class={cn("rounded-full ring ring-input overflow-x-hidden", className)}>
+<div class={cn("rounded-full ring ring-input overflow-x-hidden text-muted-foreground", className)}>
 {#each locales as opt}
 	<button 
 		disabled={locale==opt}
-		class="h-8 w-10 disabled:bg-border disabled:text-foreground"
+		class="h-8 w-10 disabled:bg-border disabled:text-foreground cursor-pointer"
 		onclick={() => { setLocale(opt) }}
 	>
 		{ opt.toUpperCase() }

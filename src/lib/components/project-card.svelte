@@ -47,15 +47,16 @@
     {/if}
 
     <CardContent class="flex flex-col space-y-1 size-full">
-        {#if desc.length > 0}
-            <ul class="list-disc pl-2">
-                {#each desc as item}
-                    <li class="">
-                        {item}
-                    </li>
-                {/each}
-            </ul>
-        {/if}
+    	{desc}
+        <!-- {#if desc.length > 0} -->
+        <!--     <ul class="list-disc pl-2"> -->
+        <!--         {#each desc as item} -->
+        <!--             <li class=""> -->
+        <!--                 {item} -->
+        <!--             </li> -->
+        <!--         {/each} -->
+        <!--     </ul> -->
+        <!-- {/if} -->
 
         <ProjectTags tags={project.tags} />
 
