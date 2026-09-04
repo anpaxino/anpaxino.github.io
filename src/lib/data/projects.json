@@ -64,7 +64,8 @@
 			"map_navigation.webp",
 			"map_search.webp",
 			"map_businfo.webp",
-			"map_bookmark.webp"
+			"map_bookmark.webp",
+			"map_admin.webp"
 		],
 		"desc": {
 			"vi": [
