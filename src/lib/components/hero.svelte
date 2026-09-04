@@ -33,7 +33,7 @@
                     {item.label}
 		    <MoveUpRight class="inline size-3" />
 		</a >
-                <ButtonCopy value={item.label}></ButtonCopy>
+                <ButtonCopy value={ item.label.match(/\[(.*?)\]/)[1] }></ButtonCopy>
             {/each}
         </nav>
     </article>
