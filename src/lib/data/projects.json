@@ -1,120 +1,126 @@
 [
-  {
-    "types": ["fe", "blockchain"],
-    "title": "D-App",
-    "link": "https://dapp.anhnuive.id.vn",
-    "tags": ["Web3", "React(TS)", "wagmi", "Solidity"],
-    "imgs": [
-      "dapp_connect.webp",
-      "dapp_token_transfer.webp",
-      "dapp_mint_token_success.webp"
-    ],
-    "desc": {
-      "vi": [
-        "Ứng dụng phi tập trung cho phép kết nối ví blockchain, chuyển native coin và tương tác với smart contract trên các mạng EVM.",
-        "Triển khai smart contract ERC-20 trên Sepolia, hỗ trợ tạo token, mint token và quản lý token.",
-        "Xây dựng giao diện Web3 bằng React và wagmi để đọc dữ liệu blockchain, gửi transaction và theo dõi trạng thái transaction."
-      ],
-      "en": [
-        "Decentralized application featuring wallet connection, native coin transfers, and smart contract interactions on EVM-compatible networks.",
-        "Implemented and deployed ERC-20 smart contracts on Sepolia for token creation, minting, and management.",
-        "Built a Web3 frontend with React and wagmi for blockchain data retrieval, transaction submission, and transaction status tracking."
-      ]
-    }
-  },
-  {
-    "types": ["fe", "be", "fullstack"],
-    "title": "Learning Management System (LMS)",
-    "tags": [
-      "Django",
-      "SvelteKit(TS)",
-      "OpenFGA",
-      "S3, Cloudfront",
-      "Judge0",
-      "RabbitMQ"
-    ],
-    "imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
-    "desc": {
-      "vi": [
-        "Hệ thống quản lý học tập cho phép quản lý khóa học, học liệu và nhiều hình thức kiểm tra khác nhau.",
-        "Tích hợp Judge0 để thực thi và chấm điểm mã nguồn tự động với các testcases ẩn và công khai.",
-        "Triển khai xác thực bằng JWT, phân quyền theo mô hình ReBAC với OpenFGA và lưu trữ tệp trên S3."
-      ],
-      "en": [
-        "A LMS featuring course management, learning materials, and multiple assessment types.",
-        "Integrated Judge0 for code execution and auto grading with hidden and public testcases.",
-        "Implemented JWT authentication, ReBAC-based authorization with OpenFGA, and file storage using S3."
-      ]
-    }
-  },
-  {
-    "types": ["fe", "be", "fullstack"],
-    "title": "BusMap Clone",
-    "tags": [
-      "Data scraping",
-      "SpringMVC",
-      "React(JS)",
-      "Leaflet",
-      "S3, Cloudfront"
-    ],
-    "repo": "https://github.com/dinhduongdev/public-transport",
-    "imgs": [
-      "map_navigation.webp",
-      "map_search.webp",
-      "map_businfo.webp",
-      "map_bookmark.webp"
-    ],
-    "desc": {
-      "vi": [
-        "Xây dựng hệ thống giao thông công cộng với dữ liệu được cào từ các nguồn bên ngoài.",
-        "Triển khai chức năng tìm đường bằng thuật toán Dijkstra, hỗ trợ nối nhiều tuyến xe, tính quãng đường và ước tính thời gian di chuyển.",
-        "Xây dựng trang admin, chức năng theo dõi tuyến đường yêu thích, thông báo qua email và push notification."
-      ],
-      "en": [
-        "Built a public transit system powered by data scraped from external sources.",
-        "Implemented route navigation using Dijkstra's algorithm, supporting multi-route transfers, distance calculation, and travel-time estimation.",
-        "Developed favorite-route tracking with email and push notifications, alongside an admin CRUD site."
-      ]
-    }
-  },
-  {
-    "types": ["fullstack", "ml"],
-    "title": "VietNam Real Estate Price Forecasting",
-    "tags": [
-      "Machine learning",
-      "Data scraping",
-      "Scikit-learn",
-      "Pandas",
-      "Matplotlib",
-      "Dash"
-    ],
-    "repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
-    "imgs": ["ref_web1.webp", "ref_web2.webp", "ref_house_vis.webp"],
-    "desc": {
-      "vi": [
-        "Dự án dự đoán giá bất động sản tại Việt Nam từ dữ liệu được cào từ các trang bất động sản.",
-        "Thực hiện cào dữ liệu, tiền xử lý, trực quan hoá dữ liệu và phát triển web app cho phép người dùng dự đoán giá bất động sản.",
-        "Tham gia phát triển và đánh giá các mô hình học máy phục vụ bài toán dự đoán giá bất động sản."
-      ],
-      "en": [
-        "The project forecasts real estate prices in VietNam using data scraped from real estate sites.",
-        "Implemented web scrapers, data preprocessing, visualizations, and a simple web app that allows users to forecast real estate prices.",
-        "Contributed to the development and evaluation of machine learning models for real estate price forecasting."
-      ]
-    }
-  },
-  {
-    "title": "Pomodoro timer",
-    "tags": ["Desktop", "Java Swing"],
-    "repo": "https://github.com/huywindear004/Pomodoro-timer",
-    "imgs": [
-      "pomodoro_1.webp",
-      "pomodoro_2.webp",
-      "pomodoro_3.webp",
-      "pomodoro_settings.webp"
-    ],
-    "desc": {
-      "en": ["It is what it is"]
-    }
-  }
+	{
+		"types": ["fe", "blockchain"],
+		"title": "D-App",
+		"link": "https://dapp.anhnuive.id.vn",
+		"tags": ["React", "Solidity"],
+		"imgs": [
+			"dapp_connect.webp",
+			"dapp_token_transfer.webp",
+			"dapp_mint_token_success.webp"
+		],
+		"desc": {
+			"vi": [
+				"Ứng dụng phi tập trung cho phép kết nối ví blockchain, chuyển native coin, token và tương tác với smart contract trên các mạng EVM.",
+
+				"Triển khai smart contract ERC-20 trên Sepolia, hỗ trợ tạo token, mint token và quản lý token."
+			],
+			"en": [
+				"Developed a decentralized application featuring wallet connection, native coin, token transfers, and smart contract interactions on EVM-compatible networks.",
+
+				"Deployed ERC-20 smart contracts on Sepolia for token creation, minting, and management."
+			]
+		}
+	},
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "Learning Management System (LMS)",
+		"tags": [
+			"Django",
+			"Svelte",
+			"OpenFGA",
+			"S3, Cloudfront",
+			"Judge0",
+			"RabbitMQ"
+		],
+		"imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
+		"desc": {
+			"vi": [
+				"Xây dựng hệ thống quản lý học tập cho phép quản lý khóa học, học liệu và nhiều hình thức kiểm tra.",
+
+				"Tích hợp Judge0 để thực thi và chấm điểm code tự động với các testcases ẩn và công khai.",
+
+				"Triển khai cơ chế phân quyền theo mô hình ReBAC với OpenFGA, hỗ trợ phân quyền chi tiết trên file/folder, user group, khoá học và học liệu."
+			],
+			"en": [
+				"Developed a LMS featuring course, learning materials management, and multiple exam types.",
+
+				"Integrated Judge0 for code execution and auto grading with hidden and public testcases.",
+
+				"Implemented ReBAC-based authorization with OpenFGA for system access control, user group, course, learning materials and file/folder permissions."
+			]
+		}
+	},
+	{
+		"types": ["fe", "be", "fullstack"],
+		"title": "BusMap Clone",
+		"tags": [
+			"SpringMVC",
+			"React",
+			"S3, Cloudfront",
+			"Firebase"
+		],
+		"repo": "https://github.com/dinhduongdev/public-transport",
+		"imgs": [
+			"map_navigation.webp",
+			"map_search.webp",
+			"map_businfo.webp",
+			"map_bookmark.webp"
+		],
+		"desc": {
+			"vi": [
+				"Xây dựng ứng dụng như Google Map nhưng cho phương tiện công cộng như xe buýt hay tàu lửa.",
+
+				"Triển khai chức năng tìm đường bằng thuật toán Dijkstra, hỗ trợ nối nhiều tuyến xe, tính quãng đường và ước tính thời gian di chuyển.",
+
+				"Xây dựng trang admin, chức năng theo dõi tuyến đường/lộ trình với email và push notification."
+			],
+			"en": [
+				"Built an app just like Google Map but only for public transit such as buses and trains.",
+
+				"Implemented route navigation using Dijkstra's algorithm, supporting multi-route transfers, distance calculation, and travel-time estimation.",
+
+				"Developed admin CRUD site, route/journey tracking with email and push notifications."]
+		}
+	},
+	{
+		"types": ["fullstack", "ml"],
+		"title": "VietNam Real Estate Price Forecasting",
+		"tags": [
+			"Python",
+			"Scikit-learn"
+		],
+		"repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
+		"imgs": ["ref_web1.webp", "ref_web2.webp", "ref_house_vis.webp"],
+		"desc": {
+			"vi": [
+				"Dự án dự đoán giá bất động sản tại Việt Nam từ dữ liệu được cào từ các trang bất động sản.",
+
+				"Cào dữ liệu, tiền xử lý, trực quan hoá dữ liệu và phát triển web app cho phép người dùng dự đoán giá bất động sản.",
+
+				"Tham gia phát triển và đánh giá các mô hình học máy."
+			],
+			"en": [
+				"The project forecasts real estate prices in VietNam using data scraped from real estate sites.",
+
+				"Implemented web scrapers, data preprocessing, visualizations, and a simple web app that allows users to forecast real estate prices.",
+
+				"Contributed to the development and evaluation of machine learning models."
+			]
+		}
+	},
+	{
+		"title": "Pomodoro timer",
+		"tags": ["Desktop", "Java Swing"],
+		"repo": "https://github.com/huywindear004/Pomodoro-timer",
+		"imgs": [
+			"pomodoro_1.webp",
+			"pomodoro_2.webp",
+			"pomodoro_3.webp",
+			"pomodoro_settings.webp"
+		],
+		"desc": {
+			"en": ["Trivial pomodoro timer gui app."]
+		}
+	}
 ]
