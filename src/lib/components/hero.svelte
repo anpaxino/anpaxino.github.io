@@ -17,22 +17,22 @@
         </p>
     </header>
     <article class="grid gap-5 md:grid-cols-2">
-        <p class="">
+        <p class="md:text-left text-center">
             {m.intro()}
         </p>
         <nav
-            class="grid grid-cols-[repeat(3,max-content)] gap-1 md:justify-end"
+            class="grid grid-cols-[repeat(2,max-content)] gap-1 md:justify-end justify-center"
         >
             {#each connect as item, i}
-                <div>{item.title}:</div>
+                <!-- <div>{item.title}:</div> -->
                 <a
-                    class="underline text-amber-400/70 dark:text-amber-200 font-bold"
+                    class="underline text-amber-400/70 dark:text-amber-200 font-black lg:text-base text-sm"
                     target="_blank"
                     href={item.href}
                 >
                     {item.label}
-                    <MoveUpRight class="inline size-3" /></a
-                >
+		    <MoveUpRight class="inline size-3" />
+		</a >
                 <ButtonCopy value={item.label}></ButtonCopy>
             {/each}
         </nav>

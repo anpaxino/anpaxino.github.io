@@ -1,22 +1,22 @@
 [
   {
     "title": "Email",
-    "label": "huykhongcan04@gmail.com",
+    "label": "mailto:[huykhongcan04@gmail.com]",
     "href": "mailto:huykhongcan04@gmail.com"
   },
   {
     "title": "Telegram",
-    "label": "anpaxino",
+    "label": "t.me/[anpaxino]",
     "href": "https://t.me/anpaxino"
   },
   {
     "title": "Github",
-    "label": "huywindear004",
+    "label": "github.com/[huywindear004]",
     "href": "https://github.com/huywindear004"
   },
   {
     "title": "Codeberg",
-    "label": "qwe",
+    "label": "codeberg.org/[qwe]",
     "href": "https://codeberg.org/qwe"
   }
 ]
