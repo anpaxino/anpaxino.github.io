@@ -32,9 +32,9 @@
     const desc = $derived(project.desc[lang as "vi" | "en"] ?? project.desc.en);
 </script>
 
-<Card class={cn("w-full", className)}>
-    <CardHeader>
-        <CardTitle>{project.title}</CardTitle>
+<Card class={cn("w-full py-0 gap-1", className)}>
+    <CardHeader class="py-2">
+        <CardTitle class="font-semibold">{project.title}</CardTitle>
         {#if project.subtitle}
             <p class="text-muted-foreground">{project.subtitle}</p>
         {/if}
@@ -46,21 +46,12 @@
         <div class="aspect-video w-full bg-muted"></div>
     {/if}
 
-    <CardContent class="flex flex-col space-y-1 size-full">
+    <CardContent class="flex p-2 flex-col size-full gap-2">
     	{desc}
-        <!-- {#if desc.length > 0} -->
-        <!--     <ul class="list-disc pl-2"> -->
-        <!--         {#each desc as item} -->
-        <!--             <li class=""> -->
-        <!--                 {item} -->
-        <!--             </li> -->
-        <!--         {/each} -->
-        <!--     </ul> -->
-        <!-- {/if} -->
 
         <ProjectTags tags={project.tags} />
 
-        <div class="flex flex-wrap gap-2 pt-1 mt-auto">
+        <div class="flex flex-wrap gap-2 mt-auto">
             {#if project.link}
                 <a
                     href={project.link}

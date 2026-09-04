@@ -15,7 +15,7 @@
 {#each locales as opt}
 	<button 
 		disabled={locale==opt}
-		class="h-8 w-10 disabled:bg-border disabled:text-foreground cursor-pointer"
+		class="h-8 w-10 disabled:bg-border disabled:text-foreground hover:bg-foreground/6 cursor-pointer"
 		onclick={() => { setLocale(opt) }}
 	>
 		{ opt.toUpperCase() }
