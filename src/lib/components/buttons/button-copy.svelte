@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { Clipboard, ClipboardCheck } from "@lucide/svelte";
+    import Clipboard from "@lucide/svelte/icons/clipboard";
+    import ClipboardCheck from "@lucide/svelte/icons/clipboard-check";
     import { Button, type ButtonProps } from "$lib/components/ui/button";
     import type { Snippet } from "svelte";
 

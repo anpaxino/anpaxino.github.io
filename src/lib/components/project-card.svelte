@@ -10,7 +10,8 @@
     import ProjectImages from "./project-images.svelte";
     import { cn } from "$lib/utils";
     import { m } from "$lib/paraglide/messages.js";
-    import { ArrowUpRight, Code } from "@lucide/svelte";
+    import ArrowUpRight from "@lucide/svelte/icons/arrow-up-right";
+    import Code from "@lucide/svelte/icons/code";
 
     interface Project {
         types: string[];

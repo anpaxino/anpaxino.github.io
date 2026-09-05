@@ -6,7 +6,7 @@
     import projects from "$lib/data/projects.v2.json" with { type: "json" };
     import { m } from "$lib/paraglide/messages.js";
     import { getLocale } from "$lib/paraglide/runtime.js";
-    import { ChevronUp } from "@lucide/svelte";
+    import ChevronUp from "@lucide/svelte/icons/chevron-up";
     import { browser } from "$app/environment";
 
     function getInitialProjectsNum(): number {

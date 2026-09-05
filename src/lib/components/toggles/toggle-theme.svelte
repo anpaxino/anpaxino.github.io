@@ -2,7 +2,9 @@
     import { Button } from "$lib/components/ui/button";
     import { theme, type ThemeMode } from "$lib/stores/theme";
     import { cn } from "$lib/utils";
-    import { Moon, Sun, Eclipse } from "@lucide/svelte";
+    import Moon from "@lucide/svelte/icons/moon";
+    import Sun from "@lucide/svelte/icons/sun";
+    import Eclipse from "@lucide/svelte/icons/eclipse";
     import type { Component } from "svelte";
 
     const ICON_MAP: Record<ThemeMode, Component> = {

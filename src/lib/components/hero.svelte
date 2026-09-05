@@ -2,7 +2,7 @@
     import { m } from "$lib/paraglide/messages.js";
     import ButtonCopy from "$lib/components/buttons/button-copy.svelte";
     import connect from "$lib/data/connect.json" with { type: "json" };
-    import { CircleArrowOutUpRight, MoveUpRight } from "@lucide/svelte";
+    import MoveUpRight from "@lucide/svelte/icons/move-up-right";
 </script>
 
 <section class="space-y-10">
