@@ -21,6 +21,7 @@
 
 <svelte:head>
     <title>{m.full_name()} // Portfolio</title>
+    <meta name="description" content={m.meta_description()} />
 </svelte:head>
 
 <Hero />
