@@ -31,8 +31,8 @@
 		],
 		"imgs": ["lms_landing.webp", "lms_admin.webp", "lms_courses.webp"],
 		"desc": {
-			"vi": "Hệ thống quản lý học tập dùng để quản lý khóa học, học liệu và nhiều hình thức kiểm tra. Bài nộp code được thực thi và chấm điểm tự động qua Judge0 với testcase ẩn và công khai. Quyền truy cập được kiểm soát theo mô hình ReBAC với OpenFGA có thể phân quyền user groups, khóa học, học liệu, file/folder một cách chi tiết.",
-			"en": "A learning management system for managing courses, learning materials, and several exam formats. Code submissions are executed and graded automatically through Judge0, with hidden and public testcases. Ultilized ReBAC model using OpenFGA to authorize system access control, user groups, courses, learning materials and file/folder permissions."
+			"vi": "Hệ thống quản lý học tập dùng để quản lý khóa học, học liệu và nhiều hình thức kiểm tra. Bài nộp code được chạy và chấm điểm tự động qua Judge0 với testcase ẩn và công khai. Sử dụng mô hình phân quyền ReBAC với OpenFGA để kiểm soát quyền truy cập một cách chi tiết đối với user groups, khóa học, học liệu, file/folder.",
+			"en": "A learning management system for managing courses, learning materials, and several exam formats. Code submissions are executed and graded automatically through Judge0 with hidden and public testcases. Used OpenFGA with the ReBAC model for fine-grained access control across users, groups, courses, learning materials, and files/folders."
 		}
 	},
 
