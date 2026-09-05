@@ -9,14 +9,14 @@
     import ChevronUp from "@lucide/svelte/icons/chevron-up";
     import { browser } from "$app/environment";
 
-    function getInitialProjectsNum(): number {
-        if (!browser) return 3;
+    function getBreakPointProjectsNum(): number {
+        if (!browser) return null;
         if (window.matchMedia("(min-width: 1024px)").matches) return 3;
         if (window.matchMedia("(min-width: 768px)").matches) return 2;
         return 1;
     }
 
-    let projectsNum = $state(getInitialProjectsNum());
+    let projectsNum = $state(getBreakPointProjectsNum());
 </script>
 
 <svelte:head>
@@ -32,13 +32,15 @@
             {m.projects_title()}
         </h2>
         <div class="grow"></div>
-        <Slider
-            class="max-w-40"
-            type="single"
-            bind:value={projectsNum}
-            max={6}
-            min={1}
-        />
+	{#if projectsNum}
+		<Slider
+			class="max-w-40"
+			type="single"
+			bind:value={projectsNum}
+			max={6}
+			min={1}
+		/>
+	{/if}
         <div class="bg-muted px-2">{projectsNum}</div>
     </header>
 
@@ -46,9 +48,11 @@
         class="grid gap-6"
         style="grid-template-columns: repeat({projectsNum}, minmax(0, 1fr));"
     >
-        {#each projects as project}
-            <ProjectCard {project} lang={getLocale()} />
-        {/each}
+    	{#if browser}
+	{#each projects as project}
+		<ProjectCard {project} lang={getLocale()} />
+	{/each}
+    	{/if}
     </div>
 </section>
 
