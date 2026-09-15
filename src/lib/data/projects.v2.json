@@ -2,7 +2,7 @@
 	{
 		"types": ["fe", "blockchain"],
 		"title": "D-App",
-		"link": "https://dapp.anhnuive.id.vn",
+		"link": "https://dapp.prmarth.top",
 		"tags": ["React", "Solidity"],
 		"imgs": [
 			"dapp_connect.webp",
@@ -74,7 +74,7 @@
 			"Python",
 			"Scikit-learn"
 		],
-		"repo": "https://github.com/huywindear004/SIC_BigData_Real-Estate-Price-Prediction",
+		"repo": "https://github.com/anpaxino/SIC_BigData_Real-Estate-Price-Prediction",
 		"imgs": ["ref_web1.webp", "ref_web2.webp", "ref_house_vis.webp"],
 		"desc": {
 			"vi": "Dự án dự đoán giá bất động sản tại Việt Nam. Dữ liệu được cào từ các trang rao bán bất động sản (như batdongsan.com, nhatot.com), tiền xử lý và trực quan hóa. Web app nho nhỏ cho phép người dùng dự đoán giá từ các mô hình đã được huấn luyện.",
@@ -89,7 +89,7 @@
 	{
 		"title": "Pomodoro timer",
 		"tags": ["Java Swing"],
-		"repo": "https://github.com/huywindear004/Pomodoro-timer",
+		"repo": "https://github.com/anpaxino/Pomodoro-timer",
 		"imgs": [
 			"pomodoro_1.webp",
 			"pomodoro_2.webp",
@@ -110,7 +110,7 @@
 		"types": ["fe", "be", "fullstack"],
 		"title": "HealthCare booking system",
 		"tags": ["Django", "React Native", "S3", "RabbitMQ", "Firebase"],
-		"repo": "https://github.com/huywindear004/healthcare-booking-system",
+		"repo": "https://github.com/anpaxino/healthcare-booking-system",
 		"imgs": [],
 		"desc": {
 			"vi": "Hệ thống đặt lịch khám trực tuyến với ba vai trò bệnh nhân, bác sĩ và quản trị viên. Chức năng gồm đặt và quản lý lịch hẹn, hồ sơ sức khỏe, tư vấn qua chat hoặc video call (webrtc), đánh giá bác sĩ và thanh toán qua VNPay. Email và push notification thông báo sự kiện, dashboard theo dõi các bệnh đang phổ biến và doanh thu.",
