@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Dialog as DialogPrimitive } from "bits-ui";
+	import { Dialog as DialogPrimitive } from "$lib/bits";
 	import DialogPortal from "./dialog-portal.svelte";
 	import type { Snippet } from "svelte";
 	import * as Dialog from "./index.js";
